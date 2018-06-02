@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<serializer xmlns="http://symfony.com/schema/dic/serializer-mapping">
+    <class name="Domain\Model\ExperienciaProfissional">
+        <property name="cargo" type="string" groups="default"/>
+        <property name="descricao" type="string" groups="default"/>
+        <property name="periodoInicial" type="Datetime" groups="default"/>
+        <property name="periodoFinal" type="Datetime" groups="default"/>
+        <property name="trabalhoAtual" type="boolean" groups="default"/>
+    </class>
+</serializer>

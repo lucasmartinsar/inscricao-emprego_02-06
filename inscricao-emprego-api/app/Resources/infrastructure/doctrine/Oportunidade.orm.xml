@@ -2,7 +2,7 @@
     <entity repository-class="Infrastructure\Persistence\Doctrine\OportunidadeRepository"
             name="Domain\Model\Oportunidade" table="oportunidade">
 
-        <id name="idOportunidade" type="integer" column="id">
+        <id name="idOportunidade" type="integer" column="id_oportunidade">
             <generator strategy="AUTO" />
         </id>
 

@@ -27,4 +27,12 @@ class OportunidadeRepository extends EntityRepository implements OportunidadeSer
         $this->getEntityManager()->flush();
 
     }
+
+    /**
+     * @return array
+     */
+    public function listarTudo()
+    {
+        return $this->findAll();
+    }
 }
